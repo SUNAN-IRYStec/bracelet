@@ -1,0 +1,51 @@
+# ===============================
+# Node / Vite
+# ===============================
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.*
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===============================
+# Build artifacts / temp
+# ===============================
+.cache/
+.tmp/
+temp/
+coverage/
+
+# ===============================
+# Image source files (optional)
+# Keep original large images out of repo if needed
+# ===============================
+# Uncomment if you decide NOT to store original PNGs in this repo
+# public/images/**/original.png
+# public/images/**/original.tif
+# public/images/**/original.psd
+
+# ===============================
+# Backup files
+# ===============================
+*~
+*.bak
+*.old
