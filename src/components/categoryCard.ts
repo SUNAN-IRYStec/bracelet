@@ -1,6 +1,7 @@
 import { Category, Product } from '../data/catalog';
 import { i18n } from '../i18n';
 import { router } from '../router';
+import { toAbsoluteUrl } from '../utils/url';
 
 export function createCategoryCard(category: Category, featuredProduct?: Product): HTMLElement {
   const card = document.createElement('div');
@@ -12,7 +13,7 @@ export function createCategoryCard(category: Category, featuredProduct?: Product
 
   if (featuredProduct) {
     const img = document.createElement('img');
-    img.src = featuredProduct.images.thumb;
+    img.src = toAbsoluteUrl(featuredProduct.images.thumb);
     img.alt = i18n.t(category.nameKey);
     img.loading = 'lazy';
     img.className = 'category-card-image';

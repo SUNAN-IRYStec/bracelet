@@ -1,6 +1,7 @@
 import { catalogService } from '../data/catalog';
 import { i18n } from '../i18n';
 import { router } from '../router';
+import { toAbsoluteUrl } from '../utils/url';
 
 export function renderProductPage(params: Record<string, string>): void {
   const main = document.getElementById('main');
@@ -31,7 +32,7 @@ export function renderProductPage(params: Record<string, string>): void {
   imageSection.className = 'product-images';
 
   const mainImage = document.createElement('img');
-  mainImage.src = product.images.preview;
+  mainImage.src = toAbsoluteUrl(product.images.preview);
   mainImage.alt = i18n.t(product.nameKey);
   mainImage.className = 'product-main-image';
   imageSection.appendChild(mainImage);
@@ -43,11 +44,11 @@ export function renderProductPage(params: Record<string, string>): void {
 
     // Include preview as first thumbnail
     const previewThumb = document.createElement('img');
-    previewThumb.src = product.images.preview;
+    previewThumb.src = toAbsoluteUrl(product.images.preview);
     previewThumb.alt = i18n.t(product.nameKey);
     previewThumb.className = 'gallery-thumb active';
     previewThumb.onclick = () => {
-      mainImage.src = product.images.preview;
+      mainImage.src = toAbsoluteUrl(product.images.preview);
       document.querySelectorAll('.gallery-thumb').forEach((t) => t.classList.remove('active'));
       previewThumb.classList.add('active');
     };
@@ -55,12 +56,12 @@ export function renderProductPage(params: Record<string, string>): void {
 
     product.images.gallery.forEach((imgSrc) => {
       const thumb = document.createElement('img');
-      thumb.src = imgSrc;
+      thumb.src = toAbsoluteUrl(imgSrc);
       thumb.alt = i18n.t(product.nameKey);
       thumb.className = 'gallery-thumb';
       thumb.loading = 'lazy';
       thumb.onclick = () => {
-        mainImage.src = imgSrc;
+        mainImage.src = toAbsoluteUrl(imgSrc);
         document.querySelectorAll('.gallery-thumb').forEach((t) => t.classList.remove('active'));
         thumb.classList.add('active');
       };
@@ -75,7 +76,7 @@ export function renderProductPage(params: Record<string, string>): void {
   viewOriginalBtn.className = 'btn-primary btn-view-original';
   viewOriginalBtn.textContent = i18n.t('button.viewOriginal');
   viewOriginalBtn.onclick = () => {
-    window.open(product.images.original, '_blank');
+    window.open(toAbsoluteUrl(product.images.original), '_blank');
   };
   imageSection.appendChild(viewOriginalBtn);
 

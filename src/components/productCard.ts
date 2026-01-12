@@ -1,6 +1,7 @@
 import { Product } from '../data/catalog';
 import { i18n } from '../i18n';
 import { router } from '../router';
+import { toAbsoluteUrl } from '../utils/url';
 
 export function createProductCard(product: Product): HTMLElement {
   const card = document.createElement('div');
@@ -8,7 +9,7 @@ export function createProductCard(product: Product): HTMLElement {
   card.onclick = () => router.navigate(`/p/${product.id}`);
 
   const img = document.createElement('img');
-  img.src = product.images.thumb;
+  img.src = toAbsoluteUrl(product.images.thumb);
   img.alt = i18n.t(product.nameKey);
   img.loading = 'lazy';
   img.className = 'product-card-image';
