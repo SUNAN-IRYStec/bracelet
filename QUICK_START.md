@@ -63,8 +63,8 @@ public/images/
 ```
 
 ### 第四步：批量处理所有图片
-
 ```bash
+使用 scripts/organize_files.py 将文件夹中的图片进行预处理，需要设置输入/输出目录
 # 一次性处理所有产品图片
 for dir in public/images/*/; do
     echo "Processing: $dir"
