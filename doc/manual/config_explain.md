@@ -122,7 +122,7 @@ desc.textContent = i18n.t(product.longDescKey);  // 详细描述...
 }
 3. 标签和价格
 字段	类型	作用	示例	代码位置
-tags	string[]	产品标签数组，用于搜索和分类展示	["portable", "low-power"]	product.ts:99-104
+tags	string[]	产品标签数组，用于搜索和分类展示	["hand", "cutie"]	product.ts:99-104
 priceText	string	价格文本（自由格式，支持任何货币符号）	"€299"	product.ts:94
 tags 的两个作用：
 
@@ -199,3 +199,6 @@ ID 命名： 使用有意义的名称（wireless-sensor-v2）而非编号（p001
 标签选择： 选择能帮助用户搜索的关键词
 价格文本： 如果不展示价格，可以写 "Contact us" 或 "询价"
 规格参数： k 字段统一使用 specs.{name} 格式，方便多语言管理
+
+产品显示：
+"#2"是在语言文件中手动配置的

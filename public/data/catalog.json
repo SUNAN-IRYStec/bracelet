@@ -22,7 +22,7 @@
       "nameKey": "product.hand_painted_beads_cutie_0001.name",
       "shortDescKey": "product.hand_painted_beads_cutie_0001.shortDesc",
       "longDescKey": "product.hand_painted_beads_cutie_0001.longDesc",
-      "tags": ["portable", "low-power"],
+      "tags": ["hand", "cutie"],
       "priceText": "",
       "images": {
         "thumb": "/images/hand_painted_beads_cutie_0001/thumb.webp",
@@ -43,7 +43,7 @@
       "nameKey": "product.hand_painted_beads_cutie_0002.name",
       "shortDescKey": "product.hand_painted_beads_cutie_0002.shortDesc",
       "longDescKey": "product.hand_painted_beads_cutie_0002.longDesc",
-      "tags": ["portable", "low-power"],
+      "tags": ["hand", "cutie"],
       "priceText": "",
       "images": {
         "thumb": "/images/hand_painted_beads_cutie_0002/thumb.webp",
@@ -64,7 +64,7 @@
       "nameKey": "product.hand_painted_beads_cutie_0003.name",
       "shortDescKey": "product.hand_painted_beads_cutie_0003.shortDesc",
       "longDescKey": "product.hand_painted_beads_cutie_0003.longDesc",
-      "tags": ["portable", "low-power"],
+      "tags": ["hand", "cutie"],
       "priceText": "",
       "images": {
         "thumb": "/images/hand_painted_beads_cutie_0003/thumb.webp",
@@ -85,7 +85,7 @@
       "nameKey": "product.hand_painted_beads_cutie_0004.name",
       "shortDescKey": "product.hand_painted_beads_cutie_0004.shortDesc",
       "longDescKey": "product.hand_painted_beads_cutie_0004.longDesc",
-      "tags": ["portable", "low-power"],
+      "tags": ["hand", "cutie"],
       "priceText": "",
       "images": {
         "thumb": "/images/hand_painted_beads_cutie_0004/thumb.webp",
@@ -106,7 +106,7 @@
       "nameKey": "product.hand_painted_beads_cutie_0005.name",
       "shortDescKey": "product.hand_painted_beads_cutie_0005.shortDesc",
       "longDescKey": "product.hand_painted_beads_cutie_0005.longDesc",
-      "tags": ["portable", "low-power"],
+      "tags": ["hand", "cutie"],
       "priceText": "",
       "images": {
         "thumb": "/images/hand_painted_beads_cutie_0005/thumb.webp",

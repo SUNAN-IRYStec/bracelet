@@ -138,7 +138,7 @@ Products are the core content items displayed throughout the site.
   "nameKey": "product.wireless-sensor.name",
   "shortDescKey": "product.wireless-sensor.shortDesc",
   "longDescKey": "product.wireless-sensor.longDesc",
-  "tags": ["portable", "low-power"],
+  "tags": ["hand", "cutie"],
   "priceText": "€299",
   "images": {
     "thumb": "/images/wireless-sensor/thumb.webp",

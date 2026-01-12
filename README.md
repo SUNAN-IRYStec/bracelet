@@ -155,7 +155,7 @@ Add your product to `public/data/catalog.json`:
   "nameKey": "product.wireless-sensor.name",
   "shortDescKey": "product.wireless-sensor.shortDesc",
   "longDescKey": "product.wireless-sensor.longDesc",
-  "tags": ["portable", "low-power"],
+  "tags": ["hand", "cutie"],
   "priceText": "€399",
   "images": {
     "thumb": "/images/wireless-sensor/thumb.webp",
