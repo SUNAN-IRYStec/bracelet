@@ -255,7 +255,8 @@ button {
 .category-card-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg-gray);
   transition: transform 0.3s;
 }
 
@@ -345,7 +346,8 @@ button {
 .product-card-image {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg-gray);
 }
 
 .product-card-content {
@@ -403,7 +405,8 @@ button {
 .product-main-image {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg-gray);
   border-radius: var(--radius);
   margin-bottom: 1rem;
   border: 1px solid var(--border-color);
@@ -419,7 +422,8 @@ button {
 .gallery-thumb {
   width: 80px;
   height: 80px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg-gray);
   border-radius: var(--radius);
   border: 2px solid transparent;
   cursor: pointer;
