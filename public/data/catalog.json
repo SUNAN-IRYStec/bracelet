@@ -11,12 +11,6 @@
       "nameKey": "category.hand_painted_beads_cutie",
       "sort": 100,
       "featuredProductId": "hand_painted_beads_cutie_0001"
-    },
-    {
-      "id": "c02",
-      "nameKey": "category.controllers",
-      "sort": 90,
-      "featuredProductId": "p002"
     }
   ],
   "products": [
@@ -40,27 +34,7 @@
         { "k": "specs.size", "v": "" },
         { "k": "specs.weight", "v": "" }
       ]
-    },
-    {
-      "id": "p002",
-      "published": true,
-      "categoryId": "c02",
-      "sortInCategory": 100,
-      "nameKey": "product.p002.name",
-      "shortDescKey": "product.p002.shortDesc",
-      "longDescKey": "product.p002.longDesc",
-      "tags": ["industrial", "reliable"],
-      "priceText": "€499",
-      "images": {
-        "thumb": "/images/p002/thumb.webp",
-        "preview": "/images/p002/preview.webp",
-        "gallery": ["/images/p002/g1.webp", "/images/p002/g2.webp"],
-        "original": "/images/p002/original.png"
-      },
-      "specs": [
-        { "k": "specs.size", "v": "15cm x 8cm" },
-        { "k": "specs.weight", "v": "150g" }
-      ]
     }
+
   ]
 }
