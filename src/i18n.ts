@@ -1,42 +1,56 @@
 type Locale = 'en' | 'zh' | 'fr';
 
+const SUPPORTED_LOCALES: Locale[] = ['en', 'zh', 'fr'];
+const DEFAULT_LOCALE: Locale = 'en';
+
 interface Translations {
   [key: string]: string;
 }
 
+function isValidLocale(locale: string | null): locale is Locale {
+  return locale !== null && SUPPORTED_LOCALES.includes(locale as Locale);
+}
+
+function detectBrowserLocale(): Locale {
+  const browserLang = navigator.language.toLowerCase();
+
+  for (const locale of SUPPORTED_LOCALES) {
+    if (browserLang.startsWith(locale)) {
+      return locale;
+    }
+  }
+
+  return DEFAULT_LOCALE;
+}
+
 class I18n {
-  private currentLocale: Locale = 'en';
+  private currentLocale: Locale = DEFAULT_LOCALE;
   private translations: Translations = {};
   private fallbackTranslations: Translations = {};
 
   async init(): Promise<void> {
-    const saved = localStorage.getItem('locale') as Locale;
-    const browserLang = navigator.language.toLowerCase();
+    const saved = localStorage.getItem('locale');
 
-    // Determine locale: saved > browser > default (en)
-    if (saved && ['en', 'zh', 'fr'].includes(saved)) {
+    if (isValidLocale(saved)) {
       this.currentLocale = saved;
-    } else if (browserLang.startsWith('zh')) {
-      this.currentLocale = 'zh';
-    } else if (browserLang.startsWith('fr')) {
-      this.currentLocale = 'fr';
     } else {
-      this.currentLocale = 'en';
+      this.currentLocale = detectBrowserLocale();
     }
 
     await this.loadTranslations();
   }
 
+  private async fetchTranslations(locale: Locale): Promise<Translations> {
+    const response = await fetch(`${import.meta.env.BASE_URL}locales/${locale}.json`);
+    return response.json();
+  }
+
   async loadTranslations(): Promise<void> {
     try {
-      // Load current locale
-      const response = await fetch(`${import.meta.env.BASE_URL}locales/${this.currentLocale}.json`);
-      this.translations = await response.json();
+      this.translations = await this.fetchTranslations(this.currentLocale);
 
-      // Load fallback (en) if not already loaded
-      if (this.currentLocale !== 'en') {
-        const fallbackResponse = await fetch(`${import.meta.env.BASE_URL}locales/en.json`);
-        this.fallbackTranslations = await fallbackResponse.json();
+      if (this.currentLocale !== DEFAULT_LOCALE) {
+        this.fallbackTranslations = await this.fetchTranslations(DEFAULT_LOCALE);
       }
     } catch (error) {
       console.error('Failed to load translations:', error);

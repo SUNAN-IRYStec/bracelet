@@ -1,12 +1,20 @@
+export type RouteParams = Record<string, string>;
+export type RouteHandler = (params: RouteParams) => void;
+
 export interface Route {
   path: string;
-  handler: (params: Record<string, string>) => void;
+  handler: RouteHandler;
+}
+
+interface MatchedRoute {
+  handler: RouteHandler;
+  params: RouteParams;
 }
 
 class Router {
   private routes: Route[] = [];
 
-  register(path: string, handler: (params: Record<string, string>) => void): void {
+  register(path: string, handler: RouteHandler): void {
     this.routes.push({ path, handler });
   }
 
@@ -26,12 +34,11 @@ class Router {
     if (matchedRoute) {
       matchedRoute.handler(matchedRoute.params);
     } else {
-      // Default to home
       this.navigate('/');
     }
   }
 
-  private matchRoute(path: string): { handler: (params: Record<string, string>) => void; params: Record<string, string> } | null {
+  private matchRoute(path: string): MatchedRoute | null {
     for (const route of this.routes) {
       const params = this.extractParams(route.path, path);
       if (params !== null) {
@@ -41,7 +48,7 @@ class Router {
     return null;
   }
 
-  private extractParams(routePath: string, actualPath: string): Record<string, string> | null {
+  private extractParams(routePath: string, actualPath: string): RouteParams | null {
     const routeParts = routePath.split('/');
     const actualParts = actualPath.split('/');
 
@@ -49,15 +56,14 @@ class Router {
       return null;
     }
 
-    const params: Record<string, string> = {};
+    const params: RouteParams = {};
 
     for (let i = 0; i < routeParts.length; i++) {
       const routePart = routeParts[i];
       const actualPart = actualParts[i];
 
       if (routePart.startsWith(':')) {
-        const paramName = routePart.slice(1);
-        params[paramName] = actualPart;
+        params[routePart.slice(1)] = actualPart;
       } else if (routePart !== actualPart) {
         return null;
       }
