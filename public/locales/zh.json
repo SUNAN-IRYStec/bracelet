@@ -9,6 +9,7 @@
   "button.backToHome": "返回首页",
   "category.sensors": "传感器",
   "category.controllers": "控制器",
+  "category.hand_painted_beads_cutie": "手绘珠子萌宠",
   "product.hand_painted_beads_cutie_0001.name": "手绘珠子萌宠",
   "product.hand_painted_beads_cutie_0001.shortDesc": "一个可爱的小手绘珠子萌宠",
   "product.hand_painted_beads_cutie_0001.longDesc": "一个有趣和可爱的小手绘珠子萌宠",
@@ -30,5 +31,6 @@
   "contact.title": "联系我们",
   "contact.email": "电子邮件",
   "contact.phone": "电话",
+  "contact.website": "网站",
   "contact.description": "如有询问或需要支持，请联系我们"
 }

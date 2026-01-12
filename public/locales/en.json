@@ -9,6 +9,7 @@
   "button.backToHome": "Back to Home",
   "category.sensors": "Sensors",
   "category.controllers": "Controllers",
+  "category.hand_painted_beads_cutie": "Hand Painted Beads Cutie",
   "product.hand_painted_beads_cutie_0001.name": "Hand Painted Beads Cutie",
   "product.hand_painted_beads_cutie_0001.shortDesc": "A cute and small hand painted beads cutie",
   "product.hand_painted_beads_cutie_0001.longDesc": "A funny and cute hand painted beads cutie",
@@ -30,5 +31,6 @@
   "contact.title": "Contact Us",
   "contact.email": "Email",
   "contact.phone": "Phone",
+  "contact.website": "Website",
   "contact.description": "Get in touch with us for inquiries or support"
 }

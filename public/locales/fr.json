@@ -9,6 +9,7 @@
   "button.backToHome": "Retour à l'Accueil",
   "category.sensors": "Capteurs",
   "category.controllers": "Contrôleurs",
+  "category.hand_painted_beads_cutie": "Petit Chat en Bijoux Peint",
   "product.hand_painted_beads_cutie_0001.name": "Petit Chat en Bijoux Peint",
   "product.hand_painted_beads_cutie_0001.shortDesc": "Un petit chat en bijoux peint",
   "product.hand_painted_beads_cutie_0001.longDesc": "Un petit chat en bijoux peint",
@@ -30,5 +31,6 @@
   "contact.title": "Contactez-nous",
   "contact.email": "E-mail",
   "contact.phone": "Téléphone",
+  "contact.website": "Site Web",
   "contact.description": "Contactez-nous pour toute demande ou assistance"
 }
