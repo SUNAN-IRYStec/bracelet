@@ -30,12 +30,12 @@ class I18n {
   async loadTranslations(): Promise<void> {
     try {
       // Load current locale
-      const response = await fetch(`/locales/${this.currentLocale}.json`);
+      const response = await fetch(`${import.meta.env.BASE_URL}locales/${this.currentLocale}.json`);
       this.translations = await response.json();
 
       // Load fallback (en) if not already loaded
       if (this.currentLocale !== 'en') {
-        const fallbackResponse = await fetch('/locales/en.json');
+        const fallbackResponse = await fetch(`${import.meta.env.BASE_URL}locales/en.json`);
         this.fallbackTranslations = await fallbackResponse.json();
       }
     } catch (error) {

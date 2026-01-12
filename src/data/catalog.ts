@@ -42,7 +42,7 @@ class CatalogService {
 
   async load(): Promise<void> {
     try {
-      const response = await fetch('/data/catalog.json');
+      const response = await fetch(`${import.meta.env.BASE_URL}data/catalog.json`);
       this.catalog = await response.json();
     } catch (error) {
       console.error('Failed to load catalog:', error);
