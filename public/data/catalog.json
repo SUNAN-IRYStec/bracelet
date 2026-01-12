@@ -11,6 +11,12 @@
       "nameKey": "category.hand_painted_beads_cutie",
       "sort": 100,
       "featuredProductId": "hand_painted_beads_cutie_0001"
+    },
+    {
+      "id": "c02",
+      "nameKey": "category.crystal_cutie",
+      "sort": 200,
+      "featuredProductId": "crystal_cutie_0001"
     }
   ],
   "products": [
@@ -113,6 +119,300 @@
         "preview": "/images/hand_painted_beads_cutie_0005/preview.webp",
         "gallery": ["/images/hand_painted_beads_cutie_0005/hand_painted_beads_cutie_0005.jpg"],
         "original": "/images/hand_painted_beads_cutie_0005/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0001",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 100,
+      "nameKey": "product.crystal_cutie_0001.name",
+      "shortDescKey": "product.crystal_cutie_0001.shortDesc",
+      "longDescKey": "product.crystal_cutie_0001.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0001/thumb.webp",
+        "preview": "/images/crystal_cutie_0001/preview.webp",
+        "gallery": ["/images/crystal_cutie_0001/crystal_cutie_0001.jpg"],
+        "original": "/images/crystal_cutie_0001/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0002",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 200,
+      "nameKey": "product.crystal_cutie_0002.name",
+      "shortDescKey": "product.crystal_cutie_0002.shortDesc",
+      "longDescKey": "product.crystal_cutie_0002.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0002/thumb.webp",
+        "preview": "/images/crystal_cutie_0002/preview.webp",
+        "gallery": ["/images/crystal_cutie_0002/crystal_cutie_0002.jpg"],
+        "original": "/images/crystal_cutie_0002/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0003",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 300,
+      "nameKey": "product.crystal_cutie_0003.name",
+      "shortDescKey": "product.crystal_cutie_0003.shortDesc",
+      "longDescKey": "product.crystal_cutie_0003.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0003/thumb.webp",
+        "preview": "/images/crystal_cutie_0003/preview.webp",
+        "gallery": ["/images/crystal_cutie_0003/crystal_cutie_0003.jpg"],
+        "original": "/images/crystal_cutie_0003/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0004",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 400,
+      "nameKey": "product.crystal_cutie_0004.name",
+      "shortDescKey": "product.crystal_cutie_0004.shortDesc",
+      "longDescKey": "product.crystal_cutie_0004.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0004/thumb.webp",
+        "preview": "/images/crystal_cutie_0004/preview.webp",
+        "gallery": ["/images/crystal_cutie_0004/crystal_cutie_0004.jpg"],
+        "original": "/images/crystal_cutie_0004/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0005",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 500,
+      "nameKey": "product.crystal_cutie_0005.name",
+      "shortDescKey": "product.crystal_cutie_0005.shortDesc",
+      "longDescKey": "product.crystal_cutie_0005.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0005/thumb.webp",
+        "preview": "/images/crystal_cutie_0005/preview.webp",
+        "gallery": ["/images/crystal_cutie_0005/crystal_cutie_0005.jpg"],
+        "original": "/images/crystal_cutie_0005/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0006",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 600,
+      "nameKey": "product.crystal_cutie_0006.name",
+      "shortDescKey": "product.crystal_cutie_0006.shortDesc",
+      "longDescKey": "product.crystal_cutie_0006.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0006/thumb.webp",
+        "preview": "/images/crystal_cutie_0006/preview.webp",
+        "gallery": ["/images/crystal_cutie_0006/crystal_cutie_0006.jpg"],
+        "original": "/images/crystal_cutie_0006/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0007",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 700,
+      "nameKey": "product.crystal_cutie_0007.name",
+      "shortDescKey": "product.crystal_cutie_0007.shortDesc",
+      "longDescKey": "product.crystal_cutie_0007.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0007/thumb.webp",
+        "preview": "/images/crystal_cutie_0007/preview.webp",
+        "gallery": ["/images/crystal_cutie_0007/crystal_cutie_0007.jpg"],
+        "original": "/images/crystal_cutie_0007/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0008",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 800,
+      "nameKey": "product.crystal_cutie_0008.name",
+      "shortDescKey": "product.crystal_cutie_0008.shortDesc",
+      "longDescKey": "product.crystal_cutie_0008.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0008/thumb.webp",
+        "preview": "/images/crystal_cutie_0008/preview.webp",
+        "gallery": ["/images/crystal_cutie_0008/crystal_cutie_0008.jpg"],
+        "original": "/images/crystal_cutie_0008/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0009",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 900,
+      "nameKey": "product.crystal_cutie_0009.name",
+      "shortDescKey": "product.crystal_cutie_0009.shortDesc",
+      "longDescKey": "product.crystal_cutie_0009.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0009/thumb.webp",
+        "preview": "/images/crystal_cutie_0009/preview.webp",
+        "gallery": ["/images/crystal_cutie_0009/crystal_cutie_0009.jpg"],
+        "original": "/images/crystal_cutie_0009/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0010",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 1000,
+      "nameKey": "product.crystal_cutie_0010.name",
+      "shortDescKey": "product.crystal_cutie_0010.shortDesc",
+      "longDescKey": "product.crystal_cutie_0010.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0010/thumb.webp",
+        "preview": "/images/crystal_cutie_0010/preview.webp",
+        "gallery": ["/images/crystal_cutie_0010/crystal_cutie_0010.jpg"],
+        "original": "/images/crystal_cutie_0010/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0011",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 1100,
+      "nameKey": "product.crystal_cutie_0011.name",
+      "shortDescKey": "product.crystal_cutie_0011.shortDesc",
+      "longDescKey": "product.crystal_cutie_0011.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0011/thumb.webp",
+        "preview": "/images/crystal_cutie_0011/preview.webp",
+        "gallery": ["/images/crystal_cutie_0011/crystal_cutie_0011.jpg"],
+        "original": "/images/crystal_cutie_0011/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0012",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 1200,
+      "nameKey": "product.crystal_cutie_0012.name",
+      "shortDescKey": "product.crystal_cutie_0012.shortDesc",
+      "longDescKey": "product.crystal_cutie_0012.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0012/thumb.webp",
+        "preview": "/images/crystal_cutie_0012/preview.webp",
+        "gallery": ["/images/crystal_cutie_0012/crystal_cutie_0012.jpg"],
+        "original": "/images/crystal_cutie_0012/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0013",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 1300,
+      "nameKey": "product.crystal_cutie_0013.name",
+      "shortDescKey": "product.crystal_cutie_0013.shortDesc",
+      "longDescKey": "product.crystal_cutie_0013.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0013/thumb.webp",
+        "preview": "/images/crystal_cutie_0013/preview.webp",
+        "gallery": ["/images/crystal_cutie_0013/crystal_cutie_0013.jpg"],
+        "original": "/images/crystal_cutie_0013/original.png"
+      },
+      "specs": [
+        { "k": "specs.size", "v": "" },
+        { "k": "specs.weight", "v": "" }
+      ]
+    },
+    {
+      "id": "crystal_cutie_0014",
+      "published": true,
+      "categoryId": "c02",
+      "sortInCategory": 1400,
+      "nameKey": "product.crystal_cutie_0014.name",
+      "shortDescKey": "product.crystal_cutie_0014.shortDesc",
+      "longDescKey": "product.crystal_cutie_0014.longDesc",
+      "tags": ["crystal", "cutie"],
+      "priceText": "",
+      "images": {
+        "thumb": "/images/crystal_cutie_0014/thumb.webp",
+        "preview": "/images/crystal_cutie_0014/preview.webp",
+        "gallery": ["/images/crystal_cutie_0014/crystal_cutie_0014.jpg"],
+        "original": "/images/crystal_cutie_0014/original.png"
       },
       "specs": [
         { "k": "specs.size", "v": "" },
