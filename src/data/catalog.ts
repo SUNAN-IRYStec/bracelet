@@ -59,7 +59,7 @@ class CatalogService {
 
   getCategoriesSorted(): Category[] {
     const catalog = this.getCatalog();
-    return [...catalog.categories].sort((a, b) => b.sort - a.sort);
+    return [...catalog.categories].sort((a, b) => a.sort - b.sort);
   }
 
   getCategoryById(id: string): Category | undefined {
@@ -76,7 +76,7 @@ class CatalogService {
     const catalog = this.getCatalog();
     return catalog.products
       .filter((p) => p.categoryId === categoryId && p.published)
-      .sort((a, b) => b.sortInCategory - a.sortInCategory);
+      .sort((a, b) => a.sortInCategory - b.sortInCategory);
   }
 
   getFeaturedProduct(category: Category): Product | undefined {
